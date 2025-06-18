@@ -31,6 +31,8 @@ const App = () => {
 
    const [isLoading, setIsLoading] = useState(false);
 
+   
+
 
 
   const fetchMovies = async (query = '') =>{
@@ -60,6 +62,9 @@ const App = () => {
       }
 
       setMovieList(data.results || []);
+
+
+
 
   }catch(error){
     console.error(`error fetching movies: ${error}`);
