@@ -1,7 +1,7 @@
-import Search from './components/search'
+import Search from './components/Search';
 import Spinner from './components/Spin';
 import MovieCard from './components/MovieCard';
-import React, { useState, useEffect  } from 'react'
+import React, { useState, useEffect  } from 'react';
 
 
 {/*API is a set of rules that allow one application to talk to another one*/}
