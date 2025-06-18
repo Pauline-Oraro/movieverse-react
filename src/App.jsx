@@ -1,4 +1,4 @@
-import Search from './components/Search'
+import Search from './components/search'
 import Spinner from './components/Spin';
 import MovieCard from './components/MovieCard';
 import React, { useState, useEffect  } from 'react'
