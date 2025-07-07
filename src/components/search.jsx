@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+{/*a way for searching movies */}
 const Search = ({searchTerm, setSearchTerm}) => {
   return (
     <div className='search'>
@@ -7,7 +9,7 @@ const Search = ({searchTerm, setSearchTerm}) => {
         <img src="./search.svg" alt="search" />
         <input 
         type="text" 
-        placeholder='Search through thousands of movies'
+        placeholder='Search through thousands of movies...'
         value={searchTerm}
         onChange={(event) => setSearchTerm(event.target.value)}
         />
